@@ -25,6 +25,7 @@ Once again, the goal of this exercise is not to solve this problem, but rather t
 
 # A - Exploring the Datasets
     Get to know more about the datasets shape
+    ![](https://github.com/Bendrog/Dataiku_test/blob/master/images/A_shape_describe.JPG)
 # B - Data Cleaning
     Drop useless columns
     Drop Duplicate rows
