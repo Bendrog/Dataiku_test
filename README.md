@@ -25,12 +25,50 @@ Once again, the goal of this exercise is not to solve this problem, but rather t
 
 # A - Exploring the Datasets
     Get to know more about the datasets shape
-    ![](https://github.com/Bendrog/Dataiku_test/blob/master/images/A_shape_describe.JPG)
+    
+![](images/A_shape_describe.JPG)
+
 # B - Data Cleaning
     Drop useless columns
-    Drop Duplicate rows
-    Change the last column to binaries
-    See how the changes impacted the datasets
+![](images/B_drop_instance_weight.JPG)
+
+
+![](images/B_migration_print.JPG)
+
+
+![](images/B_migration_conclusion.JPG)
+
+![](images/B_drop_duplicates.JPG)
+
+![](images/B_compare_results.JPG)
+
+![](images/B_revenue_binary.JPG)
+
 # C - Feature engineering
-    Visualise correlation between varriables (Continuous & Categorical)
+
+![](images/C_plot_continuous.JPG)
+
+![](images/C_nbr_continuous.JPG)
+
+![](images/C_dummy_variables.JPG)
+
+![](images/C_heatmap.JPG)
+
 # D - Apply models
+
+![](images/D_Random_Forest.JPG)
+
+![](images/D_Adaboost.JPG)
+
+
+# Conclusion
+    The model can be improved. There is 72% precision and only 37% recall for detecting someone that has more than 50 000$ revenue. The AdaBoost model is slightly better in this case. After iterating several times these difference seems to be constant.
+
+    The model do not have satisfying enough results. A way to improve it could be not to consider outlayers for some continuous variables and replace them with the means. Or only consider people over a certain age.
+
+
+    But so far it gives use insights on what features has the most impact on "Having or not more than 50 000$ revenue". The 4 most important are:
+    1. Capital Gain
+    2. Dividends from stocks
+    3. Detailed Occupation Recode
+    4. Weeks work in year
