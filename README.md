@@ -21,3 +21,15 @@ Apply your model to the test file and measure it’s real performance on it (sam
 The goal of this exercise is not to create the best or the purest model, but rather to describe the steps you took to accomplish it. Explain areas that may have been the most challenging for you. Find clear insights on the profiles of the people that make more than $50,000 / year. For example, which variables seem to be the most correlated with this phenomenon? Finally, you push your code on GitHub to share it with me, or send it via email.
 
 Once again, the goal of this exercise is not to solve this problem, but rather to spend a few hours on it and to thoroughly explain your approach.
+
+
+# A - Exploring the Datasets
+    Get to know more about the datasets shape
+# B - Data Cleaning
+    Drop useless columns
+    Drop Duplicate rows
+    Change the last column to binaries
+    See how the changes impacted the datasets
+# C - Feature engineering
+    Visualise correlation between varriables (Continuous & Categorical)
+# D - Apply models
